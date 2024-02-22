@@ -151,3 +151,10 @@ div.backgroundimg p {
     text-align: center;
     margin-right: 500px;
 }
+
+.swapbottle {
+    float: left;
+    position: absolute;
+    height: 80px;
+    margin-left: 300px;
+}
