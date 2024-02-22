@@ -165,3 +165,21 @@ div.backgroundimg p {
     height: 110px;
     margin-left: 700px;
 }
+
+.little {
+    font-size: 12px;
+}
+
+footer {
+    background-color: #1261A8;
+    color: #F8F8F8;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F8F8F8;
+}
