@@ -152,9 +152,16 @@ div.backgroundimg p {
     margin-right: 500px;
 }
 
-.swapbottle {
+.triangle {
     float: left;
     position: absolute;
-    height: 80px;
-    margin-left: 300px;
+    height: 110px;
+    margin-left: 200px;
+}
+
+.nuages {
+    float: right;
+    position: absolute;
+    height: 110px;
+    margin-left: 700px;
 }
