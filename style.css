@@ -1,28 +1,31 @@
 body {
-    background-color: F8F8F8;
+    background-color: #F8F8F8;
 }
 
 h1,h2,h3 {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-style: normal;
+    color: #1261A8;
 }
 
 h1 {
     text-transform: uppercase;
-    font-size: 34px;
-    color: #1261A8;
+    font-size: 54px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 44px;
 }
 
-h4,h5,p {
+h4,h5,p,li,a {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -31,15 +34,15 @@ h4,h5,p {
 
 h4 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 h5 {
-    font-size: 18px;
+    font-size: 38px;
 }
 
-p {
-    font-size: 16px;
+p, li {
+    font-size: 36px;
 }
 
 p.informalfont {
@@ -49,6 +52,76 @@ p.informalfont {
     font-style: normal;
 }
 
-body {
-    background-color: #f8f8f8;
+header {
+    height: 300px;
+}
+
+.nav {
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.nav a {
+   font-size: 25px; 
+   color: black;
+   text-decoration: none;
+   text-align: right;
+   margin-left: 150px;
+   width: 100%;
+}
+
+.logo {
+    height: 200px;
+    text-align: center;
+}
+
+.frenchflagblue {
+    margin-top: 10px;
+    background-color: #1261A8;
+    padding-bottom: 10px;
+}
+
+.frenchflagwhite {
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.frenchflagred {
+    background-color: #E41B0E;
+    padding-bottom: 10px;
+}
+
+div.dopfrance {
+    text-align: center;
+}
+
+div.divider {
+    height: 30px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+div.originefrance {
+    background-color: #1261A8;
+    padding: 20px;
+}
+
+div.originefrance>h2 {
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.originefrance>p, div.originefrance>li {
+    color:#f8f8f8;
+    text-align: left;
+}
+
+div.originefrance>img {
+    text-align: left;
+    float: left;
+    height: 400px;
+    padding: 15px;
+    margin-right: 60px;
+    overflow: auto;
 }
