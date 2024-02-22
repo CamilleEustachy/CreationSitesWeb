@@ -139,3 +139,14 @@ div.backgroundimg p {
     margin-right: 500px;
     text-align: justify;
 }
+
+.date {
+    text-align: center;
+    margin-right: 500px;
+}
+
+.datetitre {
+    color: #FFCA0F;
+    text-align: center;
+    margin-right: 500px;
+}
