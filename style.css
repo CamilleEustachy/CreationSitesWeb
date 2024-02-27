@@ -95,10 +95,27 @@ div.dopfrance {
     text-align: center;
 }
 
+div.rambouillet>img {
+    height: 200px;
+}
+
+div.coq {
+    position: absolute;
+    margin-left: 87%;
+}
+
+div.coq>img {
+    height: 150px;
+}
+
 div.divider {
-    height: 30px;
-    margin-bottom: 150px;
+    height: 0px;
+    margin-bottom: 100px;
     text-align: center;
+}
+
+div.divider>img {
+    height: 70px;
 }
 
 div.originefrance {
@@ -152,19 +169,34 @@ div.backgroundimg p {
     margin-right: 500px;
 }
 
-.triangle {
-    float: left;
-    position: absolute;
-    height: 110px;
-    margin-left: 200px;
+.trentequatre {
+    margin-left: 50px;
 }
 
-.nuages {
-    float: right;
-    position: absolute;
-    height: 110px;
-    margin-left: 700px;
+.soixantedix {
+    margin-left: 15%;
 }
+
+.quatrevingttreize {
+    margin-left: 25%;
+}
+
+.treize {
+    height: 250px;
+    margin-left: 12%;
+}
+
+.dixneuf {
+    height: 250px;
+    margin-left: 12%;
+}
+
+.vingt {
+    height: 200px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}  
+
 
 .little {
     font-size: 12px;
@@ -177,6 +209,7 @@ footer {
     height: 10rem;
     display: flex;
     justify-content: space-between;
+    padding-left: 2px;
 }
 
 footer li {
@@ -188,9 +221,14 @@ footer a {
     color: #F8F8F8;
 }
 
-#footerblock2>img {
-    height: 10rem;
-    background-color: #f8f8f8;
-    padding-left: 15rem;
-    padding-right: 15rem;
+#dopfacebook{
+    height: 40px;
+}
+
+#dopinstagram{
+    height: 40px;
+}
+
+#dopyoutube{
+    height: 40px;
 }
