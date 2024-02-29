@@ -275,6 +275,12 @@ footer a {
     color: #F8F8F8;
 }
 
+footer .logofooter {
+    height: 150px;
+    margin-top: 3px;
+    margin-left: 50%;
+}
+
 #dopfacebook{
     height: 40px;
 }
