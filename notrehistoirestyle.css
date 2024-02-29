@@ -149,6 +149,117 @@ nav a:hover{
     padding-bottom: 10px;
 }
 
+div.dopfrance {
+    text-align: center;
+}
+
+div.rambouillet>img {
+    height: 200px;
+}
+
+div.coq {
+    position: absolute;
+    margin-left: 87%;
+}
+
+div.coq>img {
+    height: 150px;
+}
+
+div.divider {
+    height: 0px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+div.divider>img {
+    height: 70px;
+}
+
+div.originefrance {
+    background-color: #5DA6BF;
+    padding: 20px;
+    padding-left: 250px;
+}
+
+div.originefrance>h2 {
+    color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.originefrance>p, div.originefrance>ul {
+    color:#f8f8f8;
+    text-align: left;
+}
+
+div.originefrance>img {
+    text-align: left;
+    float: left;
+    height: 200px;
+    padding: 15px;
+    margin-right: 60px;
+    overflow: auto;
+}
+
+div.backgroundimg {
+    background-image: url(./images/backgroundimg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    width: 100%;
+}
+
+div.backgroundimg p {
+    margin-right: 500px;
+    text-align: justify;
+}
+
+.date {
+    text-align: center;
+    margin-right: 500px;
+}
+
+.datetitre {
+    color: #FFCA0F;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.trentequatre {
+    margin-left: 50px;
+}
+
+.soixantedix {
+    margin-left: 15%;
+}
+
+.quatrevingttreize {
+    margin-left: 25%;
+}
+
+.treize {
+    height: 250px;
+    margin-left: 12%;
+}
+
+.dixneuf {
+    height: 250px;
+    margin-left: 12%;
+}
+
+.vingt {
+    height: 200px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}  
+
+
+.little {
+    font-size: 12px;
+}
+
 footer {
     background-color: #1261A8;
     color: #F8F8F8;

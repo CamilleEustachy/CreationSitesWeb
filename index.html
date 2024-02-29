@@ -30,74 +30,62 @@
 			<nav class="nav">
 				<ul>
 					<li> <a href="./index.html">Home</a></li>
-					<li><a href="./shampoings.html">Shampoings</a></li>
-					<li>
-						<ul>
+					<li class="deroulant"><a href="./shampoings.html">Shampoings</a>
+						<ul class="sous">
 							<li><a href="#"> Cheveux normaux</a></li>
 							<li><a href="#"> Cheveux gras</a></li>
 							<li><a href="#"> Cheveux secs</a></li>
 							<li><a href="#"> Cheveux très secs</a></li>
 						</ul>
 					</li>
-					<li><a href="#"> Nos gammes </a></li>
-					<li>
-						<ul>
+					<li class="deroulant"><a href="#">Nos gammes</a>
+						<ul class="sous">
 							<li><a href="#"> Shampoings classiques </a></li>
 							<li><a href="#"> Shmapoings solides</a></li>
-							<li><a href="#"> Certifié Bio</a></li>
-								
+							<li><a href="#"> Certifié Bio</a></li>	
 						</ul>
 					</li>
-					<li> <a href="#"> Voir tous nos produits </a></li>
- 					<li><a href="./gelsdouche.html">Gels douche</a>
-						<ul>
+					<li><a href="#">Voir tous nos produits</a></li>
+ 					<li class="deroulant"><a href="./gelsdouche.html">Gels douche</a>
+						<ul class="sous">
 							<li><a href="#"> Douceurs d'enfances </a></li>
 							<li><a href="#"> Douceurs de nos régions</a></li>
 							<li><a href="#"> Voir tous nos produit</a></li>
 						</ul>
 					</li>
-				    <li> <a href="./bestsellers.html">Bestsellers</a> </li>
-                    <li><a href="./histoire.html">Notre marque</a>
-						<ul>
-							<li> <a href="#"> Notre Histoire </a></li>
-							<li> <a href="#"> Impact Environnemental et social </a></li>
-							<li><a href="#"> Nos engagements </a> </li>
-							<li> <a href="#"> Où nous trouver ? </a> </li>
-							<li> <a href="#"> Carrière </a> </li>
-							<li>
-								<ul>
-									<li><a href="#"> Offre d'emploi</a></li>
-									<li><a href="#"> Candidature spontanée</a></li>
-								</ul>
-							</li>
+					<li><a href="./bestsellers.html">Bestsellers</a></li>
+					<li class="deroulant"><a href="./histoire.html">Notre marque</a>
+						<ul class="sous">
+							<li> <a href="#">Notre Histoire</a></li>
+							<li> <a href="#">Impact Environnemental et social</a></li>
+							<li><a href="#">Nos engagements</a></li>
+							<li> <a href="#">Où nous trouver ?</a></li>
+							<li> <a href="#">Carrière</a></li>
 						</ul>
 					</li>
-	                <li> <a href="#"> Blog </a>
-						<ul>
-							<li> <a href="#"> Articles </a></li>
-							<li> <a href="#"> FAQ </a></li>
+					<li class="deroulant"><a href="#">Blog</a>
+						<ul class="sous">
+							<li> <a href="#">Articles</a></li>
+							<li> <a href="#">FAQ</a></li>
 						</ul>
 					</li>
-				    <li><a href="#"> Contactez-nous !</a> </li>
-				   
+					<li><a href="#">Contactez-nous !</a> </li>
+					<li>
+						<!--Barre de recherche -->					
+						<form>
+							<input type="text" name="text" class="search" placeholder="Recherche...">
+							<input type="submit" name="submit" value="Recherche">
+						</form>
+						<button type="button" class="close">
+							<span aria-hidden="true" class=" "></span>
+							<span class="sr-only">Fermer</span>
+						</button>	
+					</li>
 				</ul>
-
-
-<!--Barre de recherche -->
-			    <form>
-					<input type="text" name="text" class="search" placeholder="Recherche...">
-					<input type="submit" name="submit" value="Recherche">
-				</form>
-				<button type="button" class="close">
-					<span aria-hidden="true" class=" "></span>
-					<span class="sr-only">Fermer</span>
-				</button>
-			</nav>        
-				
-				<div class="frenchflagblue"></div>
-				<div class="frenchflagwhite"></div>
-				<div class="frenchflagred"></div>
-		
+			</nav>        	
+			<div class="frenchflagblue"></div>
+			<div class="frenchflagwhite"></div>
+			<div class="frenchflagred"></div>
 		</header>
 
 <!-- Diapo photos -->
