@@ -252,6 +252,17 @@ nav a:hover{
     text-align: center;
 }
 
+.section4 h2 {
+    padding-top: 10px;
+}
+
+#instaDOP {
+    height: 50px;
+    float: right;
+    position: absolute;
+    margin-left: 150px;
+}
+
 .section4 img {
     height: 300px;
     margin-top: 20px;
