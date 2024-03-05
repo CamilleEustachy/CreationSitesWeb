@@ -1,5 +1,6 @@
 # CreationSitesWeb
-Website creation and management activity 02
+Création et Gestion des sites web 
+Activity 02
 
 Duvin Léa
 Lepage Marguerite
