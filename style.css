@@ -122,10 +122,6 @@ nav a:hover{
 .sous a {
     padding: 10px;
     border-bottom: none;
-}
-
-.sous a {
-    border-bottom: none;
     background-color: #F8F8F8;
 }
 
@@ -157,9 +153,36 @@ nav a:hover{
     margin-left: 1%;
 }
 
-.diapobutton {
+.section1 {
+    width: 100%;
+    background-image: url(./images/test.png);
+}
+
+.section1>h2 {
+    margin: 50px;
     text-align: center;
 }
+
+.shampoings, .gelsdouche {
+    text-align: center;
+    display: inline-block;
+    margin-left: 9%;
+    margin-bottom: 25px;
+}
+
+.shampoings img, .gelsdouche img {
+    height: 500px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #1261A8;
