@@ -247,15 +247,16 @@ nav a:hover{
     margin-left: 10%;
 }
 
+.section4 {
+    margin-top: 40px;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
+.section4 img {
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 
 
 footer {
