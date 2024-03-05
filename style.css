@@ -155,15 +155,16 @@ nav a:hover{
 
 .section1 {
     width: 100%;
-    background-image: url(./images/test.png);
+    background-image: url(./images/index_background1.png);
+    margin-top: 60px;
 }
 
 .section1>h2 {
-    margin: 50px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
-.section1 a {
+.section1 a, .section2 a {
     text-decoration: none;
     color: white;
     background-color: #FFCA0F;
@@ -184,6 +185,34 @@ nav a:hover{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.section2>h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product1, .product2 {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18%;
+    margin-bottom: 25px;
+}  
+
+.product1 img {
+    height: 500px;
+}
+
+.product2 img {
+    height: 490px;
+}
+
+.section2 h5 {
+    margin-bottom: 10px;
+}
+
+
+
 
 
 
